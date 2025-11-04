@@ -1,3 +1,4 @@
+
 h1 {
     color: #27aedb;
     text-align: center;
@@ -9,4 +10,21 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.btn-container button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 0 5px;
+  font-weight: bold;
+  color: #c59d5f;
+  transition: color 0.3s;
+}
+
+.btn-container button.active,
+.btn-container button:hover {
+  color: #222; 
+  border-bottom: 2px solid #c59d5f;
 }
